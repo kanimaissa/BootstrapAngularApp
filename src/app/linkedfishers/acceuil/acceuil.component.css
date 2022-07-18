@@ -1,0 +1,143 @@
+/* start navbar */
+.navbar img {
+  width: 40px;
+}
+
+.navbar span {
+  color: var( --blue-color);
+}
+.navbar .main-btn {
+  background-color: var(--orange-color);
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.navbar .offre-btn{
+  background-color: var(--blue-color);
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+/* end navbar */
+
+/* start serach */
+.search{
+  background-color: rgb(41, 40, 40);
+}
+.search ul li{
+  padding :0.5rem 1rem;
+  cursor: pointer;
+  color: white;
+}
+
+.search .icon{
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.search ul li:hover{
+  color: var(--orange-color);
+}
+/* end search */
+
+
+/* start offre */
+.offre .main-title {
+  background-color: var(--blue-color);
+}
+
+.main-title {
+  color: white;
+}
+.offre .card {
+  background-color: var(--gray-color);
+  border: none;
+}
+.offre .card .card-content > p {
+  color: #cacace;
+}
+
+.offre .card .card-content p {
+  font-size: 0.8rem;
+}
+.offre .main-btn {
+  background-color: var(--orange-color);
+  color: white;
+
+  font-size: 0.8rem;
+}
+/* end offre */
+
+/* start bateaux */
+.bateaux {
+  background-color: var(--blue-color);
+  color: white;
+}
+
+.parent-tab-group > .mat-tab-header .mat-tab-label{
+  color: white;
+}
+.bateaux .card img {
+  border-radius: 1rem;
+}
+/* end bateaux */
+
+
+/* start subscribe */
+.subscribe{
+  background: url(../../../assets/imgs/plage.jpg);
+  backdrop-filter: blur(5px);
+}
+
+.subscribe input[type="text"]{
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.subscribe input[type="text"]:focus{
+  outline: none;
+}
+
+.subscribe ::placeholder {
+  color: black;
+}
+.subscribe h5{
+  color: white;
+}
+.main-btn{
+background-color: var(--orange-color);
+color: white;
+}
+/* end subscribe */
+
+
+
+/* start footer */
+.footer{
+  background-color: var(--dark-color);
+}
+
+.footer img {
+  width: 40px;
+  color: white;
+}
+
+.footer p {
+  color: var(--blue-color);
+  font-size: 0.8rem;
+}
+.footer .contact {
+  color: var(--orange-color);
+}
+
+.footer ul {
+  font-size: 0.8rem;
+}
+/* end footer */
+
+
+
+
+.mat-tab-group {
+  margin-bottom: 48px;
+}

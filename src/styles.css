@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import 'bootstrap/dist/css/bootstrap.css';
+
+:root {
+  --dark-color:#19283f;
+  --green-color:#33d1cc;
+  --red-color:#ff3150;
+  --yello-color:#ffc400;
+  --section-color:#eff7fa;
+
+  --orange-color:#f54b2a;
+  --blue-color:#5bd2e8;
+  --gray-color:#f7f7f7;
+}
+
+body{
+  font-family: "Roboto",sans-serif;
+
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
